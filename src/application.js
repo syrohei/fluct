@@ -95,6 +95,9 @@ export default class Application {
   getRegion() {
     return this.getPackage().fluct.region || 'us-east-1';
   }
+  getStageName() {
+    return this.getPackage().fluct.stageName || 'production';
+  }
 
   /**
    * @return {String}

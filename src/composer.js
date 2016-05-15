@@ -41,7 +41,7 @@ export default class Composer extends EventEmitter {
         {
           restApiId: restApiId,
           region: this.application.getRegion(),
-          stageName: DEFAULT_STAGE_NAME
+          stageName: this.application.getStageName()
         }
       );
       return value.data;

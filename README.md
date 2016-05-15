@@ -82,6 +82,8 @@ $ cat package.json
     "accountId": "012345678912",
     "restapiId": null,
     "roleName": "fluct-example-role"
+    "region":"us-west-2",
+    "stageName":"production"
   }
 }
 ```

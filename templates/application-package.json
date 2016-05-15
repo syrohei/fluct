@@ -4,6 +4,8 @@
   "fluct": {
     "accountId": "WRITE_YOUR_AWS_ACCOUNT_ID",
     "restapiId": null,
-    "roleName": "WRITE_IAM_ROLE_NAME"
+    "roleName": "WRITE_IAM_ROLE_NAME",
+    "region":"WRITE_REGION",
+    "stageName":"default stage is 'production' "
   }
 }
