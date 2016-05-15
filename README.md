@@ -89,13 +89,15 @@ $ cat package.json
 ```
 
 ### 6. Deploy it
-Deploy your application to Lambda and API Gateway.
-check the file `~/.aws/credentials`
+
+Check the file `~/.aws/credentials`
+
 ```
 [default]
 aws_access_key_id = [access key]
 aws_secret_access_key = [secret key]
 ```
+Deploy your application to Lambda and API Gateway.
 
 ```
 $ fluct deploy
